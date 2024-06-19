@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from app.api.models import PoliticalParty, Place, MP , Sector
-from django.contrib.auth.models import User
+
 
 class PoliticalPartySerializer(serializers.ModelSerializer):
     class Meta:
